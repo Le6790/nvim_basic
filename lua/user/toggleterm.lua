@@ -44,6 +44,16 @@ function M.config()
   function _LAZYGIT_TOGGLE()
     lazygit:toggle()
   end
+
+  local htop = Terminal:new({cmd = "htop", hidden = true})
+  function _HTOP_TOGGLE()
+    htop:toggle()
+  end
+
+  local python = Terminal:new({cmd = "python", hidden= true})
+  function _PYTHON_TOGGLE()
+    python:toggle()
+  end
 end
 
 return M

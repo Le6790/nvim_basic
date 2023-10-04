@@ -25,8 +25,7 @@ function M.config()
         extra_filetypes = { "toml" },
         extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
       },
-      formatting.black.with { extra_args = { "--fast" } },
-      --formatting.autopep8,
+      formatting.autopep8,
       diagnostics.flake8,
     },
   }

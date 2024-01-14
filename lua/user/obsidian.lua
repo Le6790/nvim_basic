@@ -23,6 +23,13 @@ return {
         path = "~/Documents/obsidian_brain",
       },
     },
+    daily_notes = {
+      date_format="%Y/%m-%b/Daily Notes/%Y-%m-%d",
+      template = "Daily Notes Template.md"
+    },
+    templates = {
+      subdir = "templates"
+    }
 
     -- see below for full list of options 👇
   },

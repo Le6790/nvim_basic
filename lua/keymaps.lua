@@ -80,6 +80,8 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 -- fzf
 vim.keymap.set("n", "<leader>pf", ":Files<CR>")
+vim.keymap.set("n", "<leader>pr", ":History<CR>")
+vim.keymap.set("n", "<leader>pt", ":Rg <CR>")
 
 
 -- NvimTree
